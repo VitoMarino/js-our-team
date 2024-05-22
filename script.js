@@ -1,18 +1,31 @@
 const div = document.querySelector('div');
+const p = document.createElement('p');
+const article = document.createElement('article');
+const img = document.createElement('img');
 
-for (let i = 0; i <= 6; i++) {
-    let p = document.createElement('p');
+for (let i = 1; i <= 6; i++) {
+    const p = document.createElement('p');
     const article = document.createElement('article');
+    const img = document.createElement('img');
+    
     div.append(article);
     article.append(p)
-    
-    let img = document.createElement('img');
-    article.appendChild(img);
+    article.append(img);
 }
 
-let articleUno = document.querySelectorAll('div > article:nth-child(1)')
-articleUno.classList.add('uno');
+let articleUno = document.querySelector();
+let articleDue = document.querySelector();
+let articleTre = document.querySelector();
+let articleQuattro = document.querySelector();
+let articleCinque = document.querySelector();
+let articleSei = document.querySelector();
 
+articleUno.classList.add()
+articleDue.classList.add()
+articleTre.classList.add()
+articleQuattro.classList.add()
+articleCinque.classList.add()
+articleSei.classList.add()
 
 const team = [
     {
