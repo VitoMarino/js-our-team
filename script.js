@@ -9,37 +9,37 @@ const team = [
     {
         nome: 'Wayne Barnett ',
         ruolo: 'Founder & CEO ',
-        foto: img.src = 'wayne-barnett-founder-ceo.jpg '
+        foto: 'wayne-barnett-founder-ceo.jpg '
     },
     
     {
         nome: 'Angela Caroll ',
         ruolo: 'Chief Editor ',
-        foto: img.src = ' angela-caroll-chief-editor.jpg '
+        foto: ' angela-caroll-chief-editor.jpg '
     },
 
     {
         nome: 'Walter Gordon ',
         ruolo: 'Office Manager ',
-        foto: img.src = 'walter-gordon-office-manager.jpg '
+        foto: 'walter-gordon-office-manager.jpg '
     },
 
     {
         nome: 'Angela Lopez ',
         ruolo: 'Social Media Manager ',
-        foto: img.src = 'angela-lopez-social-media-manager.jpg '
+        foto: 'angela-lopez-social-media-manager.jpg '
     },
 
     {
         nome: 'Scott Estrada ',
         ruolo: 'Developer ',
-        foto: img.src = 'scott-estrada-developer.jpg '
+        foto: 'scott-estrada-developer.jpg '
     },
 
     {
         nome: 'Barbara Ramos ',
         ruolo: 'Graphic Designer ',
-        foto: img.src = 'barbara-ramos-graphic-designer.jpg '
+        foto: 'barbara-ramos-graphic-designer.jpg '
     }
 ];
 
@@ -60,7 +60,9 @@ for (let i = 0; i <= 5; i++) {
     article.append(img);
 
     p.append(team[i].nome, team[i].ruolo);
+    
+    img.src = team[i].foto;
 }
 
-document.body.append(img);
+
 
