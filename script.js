@@ -1,8 +1,10 @@
+// Variabili globali
 const div = document.querySelector('div');
 const p = document.createElement('p');
 const article = document.createElement('article');
 const img = document.createElement('img');
 
+// Ciclo for per ripetizioni tag
 for (let i = 1; i <= 6; i++) {
     const p = document.createElement('p');
     const article = document.createElement('article');
@@ -13,6 +15,7 @@ for (let i = 1; i <= 6; i++) {
     article.append(img);
 }
 
+// Aggiunta classi
 let articleUno = document.querySelector();
 let articleDue = document.querySelector();
 let articleTre = document.querySelector();
@@ -27,6 +30,7 @@ articleQuattro.classList.add()
 articleCinque.classList.add()
 articleSei.classList.add()
 
+// Array oggetti
 const team = [
     {
         nome: 'Wayne Barnett',
@@ -65,6 +69,7 @@ const team = [
     }
 ];
 
+// Ciclo forin per array oggetti in console
 for (let key in team) {
     console.log(team[key]);
 }
